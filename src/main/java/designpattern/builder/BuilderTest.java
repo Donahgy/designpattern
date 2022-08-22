@@ -1,5 +1,8 @@
 package designpattern.builder;
 
+/**
+ *  建造者模式的实现
+ */
 public class BuilderTest {
     public static void main(String[] args) {
         ProductBuilder productBuilder = new SpecialConcreteProduct();

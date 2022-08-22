@@ -2,6 +2,9 @@ package designpattern.prototype;
 
 import java.io.*;
 
+/**
+ *  原型模式的实现
+ */
 public class ProtoTest {
     public static void main(String[] args) throws CloneNotSupportedException {
         BaseInfo baseInfo = new BaseInfo("xxx");

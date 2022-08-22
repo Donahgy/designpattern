@@ -1,5 +1,8 @@
 package designpattern.adapter.v2;
 
+/**
+ *  类的适配器的实现
+ */
 public class AdapterTest2 {
     public static void main(String[] args) {
         Adapter adapter = new Adapter();

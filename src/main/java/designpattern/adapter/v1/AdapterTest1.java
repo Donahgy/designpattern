@@ -1,5 +1,8 @@
 package designpattern.adapter.v1;
 
+/**
+ *  对象适配器模式的实现
+ */
 public class AdapterTest1 {
     public static void main(String[] args) {
         Adaptee adaptee = new Adaptee();

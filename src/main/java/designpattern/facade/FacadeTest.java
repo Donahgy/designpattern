@@ -1,5 +1,8 @@
 package designpattern.facade;
 
+/**
+ *  门面模式的实现
+ */
 public class FacadeTest {
     public static void main(String[] args) {
 

@@ -3,6 +3,9 @@ package designpattern.flyweight;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+/**
+ *  享元模式的实现
+ */
 public class FlyWeightTest {
     public static void main(String[] args) {
         TreeNode treeNode1 = new TreeNode(3,4,TreeFactory.getTree("xxx","xxxx"));
