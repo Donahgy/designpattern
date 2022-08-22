@@ -1,5 +1,8 @@
 package designpattern.decoratot;
 
+/**
+ * 装饰器模式
+ */
 public class DecoratorTest {
     public static void main(String[] args) {
         Component component = new ConcreteDecorator2(new ConcreteDecorator1(new ConcreteComponent()));
