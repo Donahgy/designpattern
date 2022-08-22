@@ -1,0 +1,21 @@
+package designpattern.hungrysingleton;
+
+public class HungrySingletonTest {
+    public static void main(String[] args) {
+        HungrySingleton instance = HungrySingleton.getInstance();
+        System.out.println(instance);
+        HungrySingleton instance1 = HungrySingleton.getInstance();
+        System.out.println(instance1);
+    }
+}
+
+class HungrySingleton {
+    private static HungrySingleton instance = new HungrySingleton();
+
+    private HungrySingleton() {
+    }
+
+    public static HungrySingleton getInstance() {
+        return instance;
+    }
+}
