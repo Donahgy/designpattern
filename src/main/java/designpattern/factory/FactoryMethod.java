@@ -1,4 +1,4 @@
-package designpattern.favtory;
+package designpattern.factory;
 
 public class FactoryMethod {
     public static void main(String[] args) {
