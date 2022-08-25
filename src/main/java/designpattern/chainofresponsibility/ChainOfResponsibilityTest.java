@@ -1,5 +1,8 @@
 package designpattern.chainofresponsibility;
 
+/**
+ *  责任链模式
+ */
 public class ChainOfResponsibilityTest {
     public static void main(String[] args) {
         Request request = new Request.RequestBuilder().frequentOk(true).loggedOn(false).build();
